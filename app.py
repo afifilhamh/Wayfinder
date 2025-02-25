@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Define API Key
-API_KEY = 'AIzaSyBfikpq18Zeyg4Tb37Wrbyq0Gsopm8b7YM'  # Ganti dengan kunci API Anda yang sebenarnya
+API_KEY = 'YOUR_API_KEY'  # Ganti dengan kunci API Anda yang sebenarnya
 
 # Initialize Google Maps client
 gmaps = googlemaps.Client(key=API_KEY)
